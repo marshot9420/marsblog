@@ -1,0 +1,36 @@
+{
+  "name": "admin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "clean": "rm -rf .lighthouseci .next .swc .turbo coverage dist e2e-report e2e-results out storybook-static",
+    "dev": "next dev --port 3002",
+    "build": "next build",
+    "lint": "next lint",
+    "test:e2e": "playwright test",
+    "storybook:dev": "storybook dev --quiet --port 6002",
+    "storybook:build": "storybook build",
+    "test:unit": "jest --ci --coverage",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "@package/database": "workspace:*",
+    "@package/design-system": "workspace:*",
+    "@prisma/client": "^5.16.0",
+    "@headlessui/react": "1.7.15",
+    "clsx": "2.0.0",
+    "next": "13.4.12",
+    "next-themes": "0.2.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@package/jest-config": "workspace:*",
+    "@package/lighthouse-config": "workspace:*",
+    "@package/next-config": "workspace:*",
+    "@package/playwright-config": "workspace:*",
+    "@package/storybook-config": "workspace:*",
+    "@package/tailwindcss-config": "workspace:*",
+    "@package/typescript-config": "workspace:*"
+  }
+}
