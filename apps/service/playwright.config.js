@@ -1,4 +1,4 @@
 module.exports = require("@package/playwright-config/playwright.config")({
-  basePath: "/",
+  basePath: "",
   port: 3001,
 });

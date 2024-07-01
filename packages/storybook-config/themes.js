@@ -1,7 +1,7 @@
 import { create } from "@storybook/theming";
 
 const commonOptions = {
-  brandTitle: "Turborepo Boilerplate — Storybook",
+  brandTitle: "MarsBlog — Storybook",
   brandUrl: "https://myopic.design/",
   brandTarget: "_blank",
 };

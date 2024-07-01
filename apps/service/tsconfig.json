@@ -7,11 +7,18 @@
         "*"
       ]
     },
-    "forceConsistentCasingInFileNames": true
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "strictNullChecks": true
   },
   "include": [
     "next-env.d.ts",
-    "src"
+    "src",
+    "e2e",
+    ".next/types/**/*.ts"
   ],
   "exclude": [
     "dist",

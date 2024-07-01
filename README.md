@@ -1,3 +1,3 @@
-# boilerplate-turborepo
+# MarsBlog
 
-Turborepo와 pnpm을 사용해 구축한 Next.js, TailwindCSS, Prisma 모노레포
+MARSHOT 개인 블로그
