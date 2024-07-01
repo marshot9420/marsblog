@@ -12,7 +12,6 @@ module.exports = ({ basePath }) => {
     basePath,
     images: { unoptimized: true },
     output: "export",
-    pageExtensions: ["page.tsx", "page.ts", "page.jsx", "page.js"],
     reactStrictMode: true,
     transpilePackages: ["@package/design-system"],
     env: {
